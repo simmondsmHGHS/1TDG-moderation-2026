@@ -1,0 +1,181 @@
+
+
+/*flexbox*/
+
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+.text-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+.text-1 img {
+  width: 27%;
+}
+
+
+.text img {
+  width: 50%;
+}
+
+
+.container-about {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+
+.about-images {
+
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+  gap: 20px;
+
+}
+
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* navbar */
+.navbar ul {
+  list-style-type: none;
+  margin: 50;
+  padding: 20;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  text-align: right;
+  padding: 34px 20px;
+  color: #ffbd59;
+  font-size: 110%;
+}
+
+.navbar h1{
+padding-right: 1158px;
+}
+
+
+
+/*background and aesthetics*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  background-color: #450A8B;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color:#db00ad;
+}
+
+
+
+.heading {
+  list-style-type: none;
+  margin: 1%;
+  display: flex;
+  display: block;
+  color: white;
+  padding: 8px 40px;
+  text-decoration: none;
+  align-items: flex-start;
+  background-color: #db00ad;
+  border-radius: 35px;
+}
+
+h1{
+  color: #ffbd59;
+}
+
+
+
+body {
+  background-color: #0f0e3b;
+}
+
+p {
+  color: white;
+}
+
+
+
+
+.sign-up h2{
+  list-style-type: none;
+  margin: 1%;
+  display: flex;
+  display: block;
+  padding: 8px 40px;
+  text-decoration: none;
+  align-items: flex-start;
+  background-color: #db00ad;
+  border-radius: 25px;
+}
+
+/*text*/
+
+.text{
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+}
+.container-about{
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+}
+
+.text-1{
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2%;
+}
+
+.navbar{
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-text{
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 140%;
+}
+
+.sign-up{
+  color: #ffbd59;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+

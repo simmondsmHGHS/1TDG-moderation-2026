@@ -1,0 +1,97 @@
+.nav-bar{
+    background-color: #005b84;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a:link, a:visited {
+    color: white;
+} /* this means that all links will appear white before and after clicking on the link */
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 500px;
+    padding: 10px 50px 5px 50px;
+}
+
+body{
+    background-color: #d6eef1;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a:link, a:visited {       
+    background-color: #a6e4d0;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    border: #5db198 2px solid;
+}
+
+/* css above and below styles buttons on the past exams */
+
+
+.links a:hover {
+    background-color: #76ceb4;
+}
+
+.dates{
+    display: flex;
+    justify-content: space-around;
+}
+
+.attribution{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts{
+    display: flex;
+    align-items: flex-end;
+}
+
+.contacts{
+    padding: 20px;
+    border-style: solid;
+    border-color: #a6e4d0;
+    background-color: #a6e4d0;
+}
+
+.subheading{
+    text-decoration: overline underline;  /* the div subheading will have a line over and under the text */
+    padding-top: 50px;
+    color: #005b84;
+    
+}
+
+h1{
+    color: #005b84;
+}

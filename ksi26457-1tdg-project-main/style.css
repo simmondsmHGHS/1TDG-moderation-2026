@@ -1,0 +1,173 @@
+/* ---all navbar css -----------------------------------------------*/
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #3f965f;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  border: 8px solid black;
+  /* Required for border-image */
+  padding: 0px;
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/* --- flexbox for homepage---------------------------------------- */
+.home-container img {
+  width: 50%;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+}
+.home-container p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* ---- flexbox ----------------------------------------------------*/
+
+/* --- flexbox for about page---------------------------------------- */
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container img {
+  width: 33%;
+}
+.container p {
+  width: 33%;
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/*css for all pages*/
+div {
+  font-size: 40px;
+}
+
+.p1 {
+  font-size: 50px;
+}
+
+img {
+  width: 35%;
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/*-----heading css -----------------------------------------*/
+.heading {
+  display: block;
+  text-align: center;
+  margin: 8px 30%;
+  /* padding: first value top and bottom, second left and right */
+  border: 6px solid black;
+  /* Required for border-image */
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/*-----h1 css -------------------------------------------------*/
+h1 {
+  margin: 0%;
+  padding: 0%;
+  background-color: #616caf;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/* ------font-------------------------------------------------------*/
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/* ----- link ------------------------------------------------------*/
+.link {
+  font-size: 50px;
+
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/*------text-writing-------------------------------------------*/
+.text-writing {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/* -----h2 css -----------------------------------------------------*/
+h2 {
+  display: block;
+  text-align: center;
+  margin: 8px 30%;
+  /* padding: first value top and bottom, second left and right */
+  border: 6px solid black;
+  /* Required for border-image */
+  background-color: #616caf;
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/*-----CSS font ----------------------------------------------------*/
+
+.image-div img {
+  width: 100%;
+}
+.image p{
+  font-size: small;
+}
+/* ---- flexbox ----------------------------------------------------*/
+
+/*-----padding ----------------------------------------------------*/
+.home-container p{
+  padding-left: 10px;
+  padding-right: 10px;
+/* ---- flexbox ----------------------------------------------------*/
+
+/*-----hover----------------------------------------------------*/
+}
+ul li a:hover {
+  background-color: #616caf;
+  color: black;
+
+}
+/* ---- flexbox -------------------------------------------------

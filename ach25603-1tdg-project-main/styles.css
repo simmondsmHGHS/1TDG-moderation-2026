@@ -1,0 +1,132 @@
+/* nav-bar */
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #425b45;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #f9fee5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-top: 14px 16px;
+}
+
+ul li a:hover {
+    background-color: #2b352c;
+}
+
+
+/* all pages css (text formatting that is the same across all pages) */
+
+body {
+    background-color: #dbefe1;
+
+}
+
+img {
+    width: 30%;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+div {
+    text-align: center;
+}
+
+/* flexbox */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.tree-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tree-center img {
+    width: 40%;
+}
+
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.image-div img {
+    width: 100%;
+}
+
+
+/*Criteria links*/
+.links-for-criteria h2 {
+    text-align: center;
+    background-color: #425b45;
+    color: #f9fee5;
+    padding-bottom: 20px;
+    margin: 10px 25%;
+    /*margin 1st num top bottom, second left right*/
+}
+
+.links-for-criteria a:link {
+    color: #f9fee5;
+
+}
+
+a:visited {
+    color: #f9fee5;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* Text sizes*/
+
+h1 {
+    font-size: 36.4px;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+
+/*text aligns*/
+    text-align: center;
+}
+/* Border for images*/
+img {
+    border: 5px solid #425b45;
+}
+
+/*About US CSS*/
+.about-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-image-div {
+    width: 75%;
+}
+
+.about-image-div img {
+    width: 75%;
+}

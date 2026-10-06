@@ -1,0 +1,114 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 18px 18px;
+}
+
+.navbar {
+    border: 5px solid rgb(0, 0, 0);
+}
+
+ul li {
+    float: left;
+}
+
+div {
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 450%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container img {
+    width: 25%;
+}
+
+
+.container1 {    
+    display:flex;
+    flex-direction: row;
+}
+
+.container3 img {
+    width: 25%;
+}
+
+.container3 {    
+    display:flex;
+    flex-direction: row;
+}
+
+.Phonecall  {    
+    display:flex;
+    flex-direction: row;
+}
+
+body {
+    background-color: #ffe5eb;
+}
+
+.navbar {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-materials {
+    display: flex;
+    flex-direction: row;
+}
+.container-materials img {
+    width: 100%;
+}
+
+.Image-div img {
+    width: 100%;
+}
+
+.Image-div {
+    flex: 0 0 calc(33.333% - 10px);
+    text-align: center;
+    border: 5px solid black;
+    border-style: outset;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Phonecall img {
+    width: 100%
+}
+
+p{
+    padding:10px;
+}
+
+h4{
+    padding-right: 10%;
+}
+
+.call{
+    padding-left: 5%;
+}
